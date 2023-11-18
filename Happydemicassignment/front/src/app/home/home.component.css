@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+  font-family: fantasy;
+  margin: 0;
+  padding: 0;
+}
+
+.outer-headings {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 70px;
+  color: black;
+  
+}
+
+.inner-headings {
+  
+  border: 0px solid #ddd;
+  height: 50px;
+  line-height: 50px;
+  font-size: 55px;
+  text-transform: uppercase;
+  overflow: hidden;
+  
+}
+
+.inner-headings span {
+  position: relative;
+  color: crimson;
+  animation: animation 10s ease infinite;
+}
+
+@keyframes animation {
+  0%,
+  100% {
+    top: 0;
+  }
+  20% {
+    top: 0;
+  }
+  25% {
+    top: -50px;
+  }
+  45% {
+    top: -50px;
+  }
+  50% {
+    top: -100px;
+  }
+  70% {
+    top: -100px;
+  }
+  75% {
+    top: -150px;
+  }
+  95% {
+    top: -150px;
+  }
+}
+.banner-text{
+    position: absolute;
+    top: 50%;
+    margin-left: 100px;
+}
+.img{
+    padding: 0;
+    margin: 0;
+    
+}
+.video{
+    margin-left: 600px;
+    top: 10%;
+}
+.undervideo{
+  margin-left: 300px;
+  top: 40%;
+}
+p{
+  color: #000000;
+}
+.undervideo2{
+  top: 20%;
+}
+.inner-heading {
+  
+  border: 0px solid #ddd;
+  height: 50px;
+  line-height: 50px;
+  font-size: 55px;
+  text-transform: uppercase;
+  overflow: hidden;
+  top: 43%;
+ 
+ margin-left: 60px;
+}
+
+.inner-heading span {
+  
+  position: relative;
+  color: crimson;
+  animation: animation 10s ease infinite;
+}
